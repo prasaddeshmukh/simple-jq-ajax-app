@@ -1,8 +1,10 @@
 <?php
 
 include_once 'config.php';
-	echo "<script type='text/javascript' src='ajax.js'></script>";
-
+	echo "<script type='text/javascript' src='js/jquery-1.9.1.js'></script>";
+	echo "<script type='text/javascript' src='js/jqajax.js'></script>";	
+	//echo "<script type='text/javascript' src='js/ajax.js'></script>";
+	
 	$query = "Select id from studinfo";
 	$result = mysqli_query($conn, $query);
 	echo '<select name="q" id="selectid" onchange="getInfo(this.value)">';
