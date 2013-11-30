@@ -1,7 +1,7 @@
 <?php
 //login 
 ?>
-<title>Login</title>
+<title>Login App</title>
 <script type="text/javascript" >
 function validate(){
 	
